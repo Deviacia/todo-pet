@@ -1,0 +1,13 @@
+.form {
+    width: 100%;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.textfield {
+    width: 100%;
+}
+
+.button {
+    white-space: nowrap;
+}

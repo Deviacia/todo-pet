@@ -1,0 +1,38 @@
+.item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item_completed {
+    color: green;
+}
+
+.header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3.2rem auto;
+    grid-template-areas: 'expand title ';
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.title {
+    grid-area: title;
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main {
+    display: flex;
+    column-gap: 1rem;
+}
+
+.minimize {
+    width: 3.2rem;
+    height: 3.2rem;
+}
